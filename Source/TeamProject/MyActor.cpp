@@ -23,5 +23,6 @@ void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	UE_LOG(LogTemp, Warning, TEXT("Mine Message"));
+	UE_LOG(LogTemp, Warning, TEXT("Other Message"));
 }
 
